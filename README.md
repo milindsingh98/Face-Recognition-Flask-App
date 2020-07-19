@@ -1,6 +1,6 @@
 # Face-Recognition-Flask-App
 
-![Alt text](relative/path/to/prediction.jpg?raw=true "Prediction Results")
+![Alt text](prediction.jpg?raw=true "Prediction Results")
 
 The Facial Regognition Flask App to identify gender from images and videos using Machine Learning model to classify the images, between Male and Female. The project uses SVM, Numpy,
 Pandas , Matplotlib , PIL , CV2 , Sci-kit Learn. 
