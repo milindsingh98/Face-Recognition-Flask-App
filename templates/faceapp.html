@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+<div class="container">
+    <h1> <span style="color: #198b90;">Face Recognition</span>  App </h1>
+
+    <p class="content">
+        <br>
+        Gender Classification : This app is driven by data and machine learning
+        As soon as you upload the image, in background it converts into grayscale and crops faces, converts
+        into eigan image and finally it model to get prediction. All this functionally dumped in flask app.
+
+
+    </p>
+    <img src="{{url_for('static' , filename = 'images/002.png')}}" alt="Process" , width="600" , height="230">
+    <br>
+    <div align = 'center' style="margin-bottom: 5rem;">
+    <a href="{{ url_for('gender')}}" class="btn btn-outline-primary">Try it now</a>
+    </div>
+</div>
+
+
+
+{% endblock %}
