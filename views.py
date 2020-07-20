@@ -35,6 +35,6 @@ def gender():
         # Processing
         w = getwidth(path)
         # Prediction (pass to pipeline model)
-        #pipeline_model(path , filename , color='bgr')
+        pipeline_model(path , filename , color='bgr')
         return render_template('gender.html' , fileupload = True, img_name = filename , w = w)
     return render_template('gender.html' ,fileupload = False , img_name = 'NoImage', w = 300)
